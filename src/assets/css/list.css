@@ -1,0 +1,456 @@
+﻿/****
+ 	* 
+ 	* Filename:  				list.css
+ 	* Author: 					CHN-w
+ 	* Create date: 				August 2016
+ 	* Version: 					0.0.1
+ 	* Website: 					www.xxx.com
+ 	* Front frame: 				Amaze UI v2.7.2
+ 	* 
+ 	==STRUCTURE==
+ 	*
+ 	* Page width: 				750px
+ 	* Site type: 				Mobile terminal
+ 	* 
+****/
+
+/**
+ * 								通用样式
+ */
+body{
+	background: #F8F6F7;
+}
+.am-container{
+	max-width: 750px;/*页面总宽度*/
+}
+
+.am-menu-offcanvas1 .am-menu-toggle{
+	right: 0;
+}
+
+.am-header-default .am-header-icon{
+	font-size: 24px;/*header字体图标大小*/
+}
+
+.am-header .am-menu-sub > li{
+	width: 100%;/*二级菜单宽度*/
+}
+
+.am-offcanvas-bar{
+	width: 228px;/*菜单导航宽度*/
+}
+
+.my-qcwbj {/*容器边距*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*
+ *  二维码
+ */
+.am-modal-bd{
+	padding: 0;
+}
+
+/**
+ * 	通用标题栏
+ */
+.am-titlebar-default{
+	border-bottom: 0;
+}
+
+.am-titlebar-default .am-titlebar-nav {
+    text-align: center;
+}
+
+.am-titlebar-default .am-titlebar-nav .my-title-l{
+	border: 1px solid #FFB852;
+    border-width: 1px 0px 1px 1px;
+    text-transform: uppercase;
+    color: #FFB852;
+    margin-right: -4px;
+    padding: 0.6rem 1rem;
+}
+
+.am-titlebar-default .am-titlebar-nav .my-title-r{
+	background-color: #5D5D5D;
+	border: 1px solid #5D5D5D;
+	text-align: center;
+	margin-right: 0;
+	padding: 0.6rem;
+	color: #fff;
+}
+
+/**
+ *  当前位置
+ */
+
+.my-weizhi .am-breadcrumb{
+	margin: 0;
+	background-color: #333333;
+}
+
+.my-weizhi .am-breadcrumb > li{
+	color: #fff;
+}
+
+/**
+ *	<<底部工具栏>>
+ */
+
+.am-navbar-default .am-navbar-nav{
+	background-color: #162C3A;
+}
+
+.am-navbar .am-navbar-nav li{
+	border-right: 1px solid #1A394B;
+}
+
+.am-navbar .am-navbar-nav li:last-child{
+	border: 0;
+}
+
+/**
+ *	分页 
+ */
+
+.my-fenye{
+	
+}
+.my-fenye .am-pagination > li > a{
+	background-color: #F8F6F7;
+	color: #162C3A;
+	border: 1px solid #E9E9E9;
+	padding: 0.4em 0.8em;
+}
+.my-fenye .am-pagination > .am-active > a{
+	background-color: #162C3A;
+	border-color: #162C3A;
+	color: #fff;
+}
+
+/**
+ * 	上一条和下一条
+ */
+.my-sxlist .am-list{
+	padding: 0 1rem 0 1rem;
+	margin-top: 1rem;
+}
+
+.my-sxlist .am-list li{
+	border: 0;
+	margin-top: 10px;
+}
+
+.my-sxlist .am-list li a{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 1px solid #cbcfd5;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #666;
+    padding-left: 10px;
+}
+
+.my-sxlist .am-list li span{
+	font-size: 1.6rem;
+}
+/**
+ * 产品详细页的更多产品
+ */
+.am-control-thumbs li {
+  width: 100%/n; /* n 为轮播图数量 */
+}
+
+/**
+ * 								<<header>>
+ */
+
+.my-header .am-header-default{
+	background-color: #162C3A;
+}
+
+.my-header .am-header-default .am-header-icon{
+	color: #fff;
+}
+
+/**
+ * 								<<轮播图>>
+ */
+
+.my-lunbo .am-slider-a1 .am-control-nav li a.am-active {
+    background-color: #ffffff;
+    cursor: default;
+}
+
+.my-lunbo .am-slider-a1 .am-control-nav li a{
+	width: 6px;
+    height: 6px;
+}
+
+/**
+ * 								<<首页关于我们>>
+ */
+
+.my-syabout .am-intro-bd{
+	/*margin-top: 1rem;*/
+}
+
+.my-syabout .am-intro-default .am-intro-bd .am-intro-right > p{
+	color: #7E7E7E;
+}
+
+/**
+ * 								<<首页产品展示>>
+ */
+.my-sycp .am-breadcrumb{
+	margin-top: 1rem;
+	margin-bottom: 0.8rem;
+}
+
+.my-sycp .am-breadcrumb > li{
+	margin-left: 0.4rem;
+	margin-top: 0.4rem;
+}
+
+.my-sycp .am-breadcrumb > li >a{
+	color: #FD9701;
+}
+
+.my-sycp .am-breadcrumb-slash > li + li:before{
+	content: " ";
+}
+
+.my-sycp .am-gallery-default .am-gallery-title{
+	margin-top: 0;
+	background-color: #fff;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+.my-sycp .am-gallery-default > li{
+	margin-bottom: 1rem;
+}
+
+/**
+ * 								<<首页新闻>>
+ */
+
+.my-synews{
+	
+}
+
+.my-synews .am-list-news-default{
+	/*border-top: 1px solid #CCCCCC;*/
+}
+
+@media only screen and (max-width: 640px) {
+  .my-synews .am-list-news-default .am-list-item-thumb-left .am-list-thumb,
+  .my-synews .am-list-news-default .am-list-item-thumb-right .am-list-thumb {
+    max-height: 120px;
+    overflow: hidden;
+  }
+}
+
+.my-synews .am-list > li{
+	background-color: #F8F6F7;
+	position: relative;
+    display: block;
+    margin-bottom: -1px;
+    border: 1px solid #dedede;
+    border-width: 0 0 0 0;
+    
+}
+
+.my-synews .am-list-news .am-list-item-hd > a{
+	color: #333;
+	font-size: 1.6rem;
+}
+
+.my-synews .am-list-news-default .am-list .am-list-item-desced .am-list-item-text{
+	color: #7E7E7E;
+}
+
+.my-synews .am-list-news-default .am-list .am-list-item-desced {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/**
+ * 								<<关于我们详细页>>
+ */
+
+.my-aboutxx .am-article-lead{
+	border: 0;
+	line-height: 166%;
+	font-size: 1.6rem;
+	margin: 0;
+}
+
+/**
+ * 								<<新闻资讯列表页>>
+ */
+
+@media only screen and (max-width: 640px) {
+  .my-newsfy .am-list-news-default .am-list-item-thumb-left .am-list-thumb,
+  .my-newsfy .am-list-news-default .am-list-item-thumb-right .am-list-thumb {
+    max-height: 120px;
+    overflow: hidden;
+  }
+}
+
+.my-newsfy .am-list > li{
+	background-color: #F8F6F7;
+	position: relative;
+    display: block;
+    margin-bottom: -1px;
+    border: 1px solid #dedede;
+    border-width: 0 0 0 0;
+    
+}
+
+.my-newsfy .am-list-news .am-list-item-hd > a{
+	color: #333;
+	font-size: 1.6rem;
+}
+
+.my-newsfy .am-list-news-default .am-list .am-list-item-desced .am-list-item-text{
+	color: #7E7E7E;
+}
+
+.my-newsfy .am-list-news-default .am-list .am-list-item-desced {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/**
+ * 								<<产品列表页>>
+ */
+
+.my-cpfy{
+	
+}
+
+.my-cpfy .am-gallery-default .am-gallery-title{
+	margin-top: 0;
+	background-color: #fff;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+.my-cpfy .am-gallery-default > li{
+	margin-bottom: 1rem;
+}
+
+.my-cpfy .am-gallery{
+	margin-top: 10px;
+	padding: 0 5px 0 5px;
+}
+
+/**
+ * 								<<案例列表页>>
+ */
+
+.my-anlify{
+	
+}
+
+.my-anlify .am-gallery{
+	margin-top: 10px;
+}
+
+.my-anlify .am-gallery-imgbordered > li{
+	margin-bottom: 1rem;
+}
+
+.my-anlify .am-gallery-imgbordered .am-gallery-title{
+	text-align: center;
+	font-size: 1.6rem;
+}
+/**
+ * 								<<联系我们>>
+ */
+.my-lianxi .am-list{
+	padding: 0 1rem 0 1rem;
+}
+
+.my-lianxi .am-list > li{
+	border-bottom: 0;
+    border-width: 0 0 0 0;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #666;
+    background-color: #F8F6F7;
+}
+
+.my-lianxi .am-list > li span{
+	color: #666;
+	font-weight: 500;
+}
+
+.my-lianxi .am-map{
+	padding: 1.6rem 0 1.6rem 0;
+}
+
+/**
+ * 								<<新闻详细页>>
+ */
+
+.my-newsxx .am-article-hd{
+	text-align: center;
+	margin-top: 1.8rem;
+}
+
+.my-newsxx .am-article-hd .am-article-title{
+	font-size: 2rem;
+	line-height: 1;
+	margin: 0 0 1rem 0;
+}
+
+.my-newsxx .am-article-hd .am-article-meta{
+	margin: 2rem 0;
+	padding: 0;
+	color: #fff;
+	font-size: 1.4rem;
+	padding: 0.6rem;
+	background-color: #503828;
+}
+
+.my-newsxx .am-paragraph-default p{
+	color: #666;
+	line-height: 1.8em;
+}
+
+/**
+ * 								<<产品详细页>>
+ */
+
+.my-cpxx{
+	
+}
+
+.my-cpxx .am-article-hd{
+	text-align: center;
+	margin-top: 1.8rem;
+}
+
+.my-cpxx .am-article-hd .am-article-title{
+	font-size: 2rem;
+	line-height: 1;
+	margin: 0 0 1rem 0;
+}
+
+.my-cpxx .am-article-hd .am-article-meta{
+	margin: 2rem 0;
+	padding: 0;
+	color: #fff;
+	font-size: 1.4rem;
+	padding: 0.6rem;
+	background-color: #503828;
+}
+
+.my-cpxx .am-paragraph-default p{
+	color: #666;
+	line-height: 1.8em;
+}
