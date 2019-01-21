@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-cli3
 
 ## Project setup
@@ -27,3 +28,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# VueDemo
+A Vue Project
+>>>>>>> 688ea05292678b74ea347379e7c9c75b24a06687
